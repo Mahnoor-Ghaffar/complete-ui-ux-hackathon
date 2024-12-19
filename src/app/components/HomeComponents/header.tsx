@@ -66,13 +66,13 @@ function Header() {
                   }`}
                 >
                   <li className="px-4 py-2 hover:bg-gray-100">
-                    <Link href="/shop/category-1">Category 1</Link>
+                    <Link href="/shop">Category 1</Link>
                   </li>
                   <li className="px-4 py-2 hover:bg-gray-100">
-                    <Link href="/shop/category-2">Category 2</Link>
+                    <Link href="/shop">Category 2</Link>
                   </li>
                   <li className="px-4 py-2 hover:bg-gray-100">
-                    <Link href="/shop/category-3">Category 3</Link>
+                    <Link href="/shop">Category 3</Link>
                   </li>
                 </ul>
               </li>
