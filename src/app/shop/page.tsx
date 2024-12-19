@@ -26,7 +26,8 @@ import pic20 from "@/images/product-cover-5 (19).png";
 import CardText from "../components/HomeComponents/cards";
 import Footer from "../components/footer";
 
-export default function () {
+
+const ShopPage = () => {
   return (
     <div>
       <GreenHeader />
@@ -118,38 +119,24 @@ export default function () {
       {/* Product Cards */}
       <div className="relative w-full px-4 py-12">
         <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {[
-            pic9,
-            pic10,
-            pic11,
-            pic12,
-            pic13,
-            pic14,
-            pic15,
-            pic16,
-            pic17,
-            pic18,
-            pic19,
-            pic20,
-          ].map((pic, index) => (
-            <div
-              key={index}
-              className="w-full max-w-[238px] mx-auto mb-8 flex flex-col items-center"
-            >
-              <div className="w-[239px] h-[auto] flex flex-col">
-                <div className="flex-grow">
-                  <Image
-                    src={pic}
-                    alt={`product ${index + 1}`}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="">
-                  <CardText />
+          {[pic9, pic10, pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic18, pic19, pic20].map(
+            (pic, index) => (
+              <div key={index} className="w-full max-w-[238px] mx-auto mb-8 flex flex-col items-center">
+                <div className="w-[239px] h-[auto] flex flex-col">
+                  <div className="flex-grow">
+                    <Image
+                      src={pic}
+                      alt={`product ${index + 1}`}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div>
+                    <CardText />
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            )
+          )}
         </div>
 
         {/* Pagination */}
@@ -178,4 +165,7 @@ export default function () {
       <Footer />
     </div>
   );
-}
+};
+
+
+export default ShopPage;
