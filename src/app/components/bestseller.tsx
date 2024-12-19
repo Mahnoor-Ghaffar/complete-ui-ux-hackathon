@@ -5,7 +5,7 @@ import pic3 from "@/images/product-cover-5 (23).png";
 import pic4 from "@/images/product-cover-5 (24).png";
 import pic5 from "@/images/product-cover-5 (25).png";
 import pic6 from "@/images/product-cover-5 (20).png";
-import CardT2 from "./cards-text-2";
+import CardT2 from "./text";
 import cm1 from "@/images/fa-brands-1.png";
 import cm2 from "@/images/fa-brands-2.png";
 import cm3 from "@/images/fa-brands-3.png";
