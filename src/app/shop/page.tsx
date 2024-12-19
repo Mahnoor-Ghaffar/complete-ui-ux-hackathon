@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Navbar from "../components/Homepage/navbar";
-import GreenHeader from "../components/green-header";
+import Navbar from "../components/HomeComponents//navbar";
+import GreenHeader from "../components/header";
 import arrow from "@/images/Vector (13).png";
 import cat1 from "@/images/card-item.png";
 import cat2 from "@/images/card-item (1).png";
@@ -23,7 +23,7 @@ import pic18 from "@/images/product-cover-5 (17).png";
 import pic19 from "@/images/product-cover-5 (18).png";
 import pic20 from "@/images/product-cover-5 (19).png";
 
-import CardText from "../components/cards-text";
+import CardText from "../components/HomeComponents/cards";
 import Footer from "../components/footer";
 
 export default function () {
