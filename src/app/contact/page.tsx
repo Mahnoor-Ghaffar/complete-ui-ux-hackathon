@@ -11,7 +11,7 @@ import mail from "@/images/icn settings .icn-xl (2).png";
 import arrow from "@/images/Arrow 2.png";
 import Footer from "../components/footer";
 
-export default function () {
+const ContactPage = () => {
   return (
     <div>
       {/* HERO FOR CONTACT */}
@@ -54,6 +54,7 @@ export default function () {
           </div>
         </div>
       </div>
+
       {/* OFFICE AND CONTACT */}
       <div className="w-full h-auto flex justify-center items-center bg-[#FFFFFF] py-8">
         <div className="w-full max-w-[1050px] h-auto flex flex-col gap-[80px] items-center">
@@ -169,7 +170,7 @@ export default function () {
           <div className="w-full max-w-[607px] h-auto flex flex-col items-center text-center gap-[16px]">
             {/* Heading */}
             <h5 className="font-Montserrat font-bold text-[16px] leading-[24px] tracking-[0.1px] text-[#252B42]">
-              WE CAN'T WAIT TO MEET YOU
+              WE CAN&apos;T WAIT TO MEET YOU
             </h5>
             {/* Main Title */}
             <h1 className="font-Montserrat font-bold text-[40px] lg:text-[58px] leading-[48px] lg:leading-[80px] tracking-[0.2px] text-[#252B42]">
@@ -188,3 +189,5 @@ export default function () {
     </div>
   );
 }
+
+export default ContactPage;
