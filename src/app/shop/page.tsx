@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Homepage/navbar";
 import GreenHeader from "../components/green-header";
 import arrow from "@/images/Vector (13).png";
 import cat1 from "@/images/card-item.png";
